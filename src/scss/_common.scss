@@ -1,0 +1,38 @@
+* {
+    font-family: $primary-font;
+}
+// Section Heading
+.section-heading {
+    .head {
+        font-weight: 800;
+        font-size: 3em;
+        color: $black-color;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .sub-head {
+        font-weight: 300;
+        font-size: 0.9em;
+        color: $black-color;
+        text-align: center;
+    }
+}
+
+// Blue Button
+.blue-button {
+    display: inline-block;
+    font-weight: 600;
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 10px 30px;
+    border: 2px solid $secondary-color;
+    transition: color 0.11s ease-in-out, background-color 0.13s ease-in;
+
+    &:hover {
+        text-decoration: none;
+        background-color: $secondary-color;
+        color: $white-color;
+    }
+}

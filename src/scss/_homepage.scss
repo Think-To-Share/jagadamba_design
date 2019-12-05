@@ -1,0 +1,233 @@
+// Slider Section
+.homepage-slider-section {
+    background: url('../images/slider.jpg');
+    background-size: cover;
+    background-position: center;
+
+    .slide {
+        height: 600px;
+
+        .slider-heading-1 {
+            font-weight: 800;
+            font-size: 4.1em;
+            padding-left: 15px;
+            line-height: 1;
+            text-transform: uppercase;
+            color: $white-color;
+            
+            span {
+                color: $primary-color;
+            }
+        }
+
+        .slider-heading-2 {
+            font-weight: 800;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            line-height: 1;
+            color: $white-color;
+            margin-bottom: 20px;
+
+            span {
+                color: $primary-color;
+            }
+        }
+
+        .button {
+            display: inline-block;
+            font-weight: 600;
+            color: $white-color;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            padding: 15px 20px;
+            border: 1px solid $white-color;
+            transition: color 0.11s ease-in-out, background-color 0.13s ease-in;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $white-color;
+                color: $black-color;
+            }
+        }
+    }
+}
+
+// Slider Bottom Section
+.homepage-slider-bottom-section {
+    background-color: $primary-color;
+
+    .icon-box {
+        margin: 20px 0;
+
+        img {
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            max-width: 100%;
+
+            &.slash {
+                margin-bottom: 0;
+            }
+        }
+
+        p {
+            font-weight: 600;
+            color: $black-color;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            font-size: 0.8em;
+        }
+    }
+}
+
+// Product Section
+.homepage-product-section {
+    padding-top: 50px;
+
+    .section-heading {
+        margin-bottom: 60px;
+    }
+
+    .product-box {
+        border-bottom: 1px solid #d9d9d9;
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+        &:nth-child(odd) {
+            border-right: 1px solid #d9d9d9;
+        }
+
+        &:last-child, &:nth-last-child(2) {
+            border-bottom: none;
+        }
+
+        .img-section {
+            img {
+                max-width: 95%;
+            }
+        }
+
+        .content {
+            padding-left: 36px;
+
+            .product-title {
+                font-weight: 400;
+                font-size: 1.75rem;
+                color: $secondary-color;
+                line-height: 1;
+                margin-bottom: 8px;
+            }
+
+            .product-size {
+                font-weight: 400;
+                color: $secondary-color;    
+            }
+
+            .product-details {
+                font-weight: 400;
+                color: $black-color;
+                font-size: 0.9em;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+// About Us Section
+.homepage-about-section {
+    padding: 50px 0;
+    background: $gray-color;
+
+    .about-us-left-side {
+        .text {
+            font-weight: 400;
+            font-size: 1.6em;
+            color: $black-color;
+            margin-bottom: 30px;
+        }
+
+        .blue-button {
+            font-size: 1em;
+            padding: 10px 40px;
+        }
+    }
+
+    .about-us-right-side {
+        text-align: right;
+
+        .about-heading {
+            font-weight: 400;
+            color: $black-color;
+            text-transform: uppercase;
+            font-size: 2.3em;
+        }
+
+        .about-description {
+            font-weight: 300;
+            color: $black-color;
+            font-size: 0.9em;
+            margin-bottom: 25px;
+        }
+
+        .blue-button {
+            font-size: 1em;
+        }
+
+        .phone-section {
+            color: #cdcdcd;
+            margin-top: 30px;
+
+            .call-us {
+                font-weight: 600;
+                font-size: 2.5em;
+                margin-bottom: 0;
+                line-height: 1;
+            }
+
+            .number {
+                font-weight: 800;
+                font-size: 3em;
+                margin-bottom: 0;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+// Recorganition Section
+.homepage-recognition-section {
+    padding: 50px 0;
+
+    .section-main {
+        margin-top: 20px;
+
+        .image-side {
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .content-side {
+            .heading {
+                font-weight: 800;
+                font-size: 2.3em;
+                color: #cdcdcd;
+                text-transform: uppercase;
+            }
+
+            .h4 {
+                font-weight: 600;
+                font-size: 1.4em;
+                margin-top: 35px;
+            }
+
+            ul {
+                padding-left: 18px;
+                list-style-type: circle;
+                color: #7d7d7d;
+                font-size: 0.9em;
+                font-weight: 600;
+            }
+        }
+    }
+}
