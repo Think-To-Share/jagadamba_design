@@ -1,0 +1,72 @@
+.have-a-question-section {
+    @media (min-width: 992px) {
+        margin-top: 125px;
+    }
+
+    .section-row {
+        position: relative;
+        
+        @media (min-width: 992px) {
+            height: 0;
+        }
+    }
+
+    .section-main {
+        background-color: $primary-color;
+        padding: 25px 15px;
+
+        @media (min-width: 992px) {
+            position: absolute;
+        }
+
+        .heading {
+            font-weight: 800;
+            font-size: 2em;
+            color: $black-color;
+            margin-bottom: 25px;
+        }
+        
+        .text {
+            font-weight: 600;
+            font-size: 0.9em;
+            color: $black-color;
+            margin-bottom: 5px;
+
+            a {
+                color: $black-color;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.page-footer {
+    .footer-main {
+        min-height: 300px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        background-image: url('../images/footer-bkg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer-copyright {
+        padding: 15px;
+        background-color: #0f0f0f;
+
+        p {
+            margin-bottom: 0;
+            font-weight: 600;
+            font-size: 0.9em;
+            color: #858585;
+
+            a {
+                color: #d0d0d0;
+                transition: text-decoration 0.11s ease-in-out;
+            }
+        }
+    }
+}

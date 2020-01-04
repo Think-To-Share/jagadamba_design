@@ -5,10 +5,18 @@
 .section-heading {
     .head {
         font-weight: 800;
-        font-size: 3em;
+        font-size: 1.5em;
         color: $black-color;
         text-align: center;
         text-transform: uppercase;
+
+        @media (min-width: 768px) {
+            font-size: 2em;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 3em;
+        }
     }
 
     .sub-head {
@@ -30,9 +38,10 @@
     border: 2px solid $secondary-color;
     transition: color 0.11s ease-in-out, background-color 0.13s ease-in;
 
-    &:hover {
+    &:hover, &:focus {
         text-decoration: none;
         background-color: $secondary-color;
         color: $white-color;
+        outline: none;
     }
 }
