@@ -51,6 +51,32 @@
         background-image: url('../images/footer-bkg.jpg');
         background-size: cover;
         background-position: center;
+
+        .footer-widget {
+            .footer-widget-title {
+                color: $white-color;
+                font-family: $primary-font;
+                font-weight: 600;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+
+            ul {
+                padding: 0;
+                list-style-type: none;
+
+                li {
+                    padding: 4px 0;
+
+                    a {
+                        color: #ababab;
+                        font-family: $primary-font;
+                        font-weight: 600;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
     }
 
     .footer-copyright {
