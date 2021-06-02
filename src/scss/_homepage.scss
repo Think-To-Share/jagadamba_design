@@ -83,23 +83,37 @@
     .icon-box {
         margin: 20px 0;
 
-        img {
-            display: flex;
-            margin: 0 auto;
-            margin-bottom: 15px;
-            max-width: 100%;
+        a {
+            text-decoration: none;
 
-            &.slash {
-                margin-bottom: 0;
+            &:hover {
+                text-decoration: none;
+
+                img , p {
+                    opacity: 0.8;
+                }
             }
-        }
 
-        p {
-            font-weight: 600;
-            color: $black-color;
-            margin-bottom: 0;
-            text-transform: uppercase;
-            font-size: 0.8em;
+            img {
+                display: flex;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                max-width: 100%;
+                transition: opacity 0.2s ease-in;
+    
+                &.slash {
+                    margin-bottom: 0;
+                }
+            }
+    
+            p {
+                font-weight: 600;
+                color: $black-color;
+                margin-bottom: 0;
+                text-transform: uppercase;
+                font-size: 0.8em;
+                transition: opacity 0.2s ease-in;
+            }
         }
     }
 }

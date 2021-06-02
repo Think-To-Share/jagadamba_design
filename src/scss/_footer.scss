@@ -76,6 +76,20 @@
                     }
                 }
             }
+
+            a {
+                color: #ababab;
+                font-family: $primary-font;
+                font-weight: 600;
+                font-size: 0.9rem;
+            }
+
+            p {
+                color: $white-color;
+                font-family: $primary-font;
+                font-weight: 600;
+                font-size: 0.9rem;
+            }
         }
     }
 
